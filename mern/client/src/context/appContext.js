@@ -12,6 +12,7 @@ import {
     LOGIN_SUBSCRIBER_ERROR,
 } from './actions'
 
+
 const initialState = {
     isLoading: false,
     showAlert: false,
@@ -24,8 +25,10 @@ const initialState = {
 
 const AppContext = React.createContext()
 
+
 const AppProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState)
+    
 
     const displayAlert = () => {
         dispatch({ type: DISPLAY_ALERT })
@@ -69,7 +72,7 @@ const AppProvider = ({ children }) => {
                 type: LOGIN_SUBSCRIBER_SUCCESS,
                 payload: { subscriber, token, location },
             })
-
+        
         } catch (error) {
             //   console.log(error.response)  
             dispatch({

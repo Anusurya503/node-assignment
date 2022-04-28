@@ -1,6 +1,6 @@
 const AllBooks = () => {
   return (
-    <div>AllBooks</div>
+    <h1>All Books</h1>
   )
 }
 

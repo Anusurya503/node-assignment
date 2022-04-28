@@ -14,6 +14,7 @@ const initialState = {
 
 const Register = () => {
   const navigate = useNavigate()
+  
   const [values, setValues] = useState(initialState)
 
   
@@ -26,7 +27,9 @@ const Register = () => {
   }
 
   const handleChange = (event) => {
+    
     setValues({ ...values, [event.target.name]: event.target.value })
+    onSubmit();
   }
 
   const onSubmit = (event) => {
@@ -34,7 +37,11 @@ const Register = () => {
     const { name, email, password, isMember } = values
     if (!email || !password || (!isMember && !name)) {
       displayAlert()
-      return
+
+      return 
+    } 
+    if(email && password){
+      navigate('/all-books')
     }
     const currentSubscriber = { name, email, password }
     if (isMember) {
@@ -44,11 +51,8 @@ const Register = () => {
     }
   }
 
-  useEffect(() => {
-    if (subscriber) {
-      navigate('/')
-    }
-  }, [subscriber, navigate])
+
+
 
 
 

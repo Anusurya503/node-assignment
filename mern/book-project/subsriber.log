@@ -67,3 +67,14 @@
 {"level":"error","message":"email already exists","timestamp":"2022-04-27T08:18:42.043Z"}
 {"level":"error","message":"email already exists","timestamp":"2022-04-27T08:18:45.941Z"}
 {"level":"error","message":"email already exists","timestamp":"2022-04-27T08:19:24.157Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T06:25:43.365Z"}
+{"level":"info","message":"user created","timestamp":"2022-04-28T06:25:43.453Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T08:33:40.465Z"}
+{"level":"info","message":"user created","timestamp":"2022-04-28T08:33:40.533Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T08:34:08.483Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T08:34:10.810Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T08:34:22.738Z"}
+{"level":"info","message":"user created","timestamp":"2022-04-28T08:34:22.832Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T08:34:28.484Z"}
+{"level":"error","message":"email already exists","timestamp":"2022-04-28T08:40:25.680Z"}
+{"level":"info","message":"user created","timestamp":"2022-04-28T08:40:25.767Z"}
